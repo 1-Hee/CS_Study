@@ -109,7 +109,7 @@
 **모든 파일은 스터디 당일 오전 9시까지 업로드**
 
 ## **기본 사용법**
-![IMG]("./img/fork_img.PNG")
+![IMG](./img/fork_img.PNG)
 1. [원본 저장소](https://github.com/1-Hee/CS_Study)를 개인 저장소로 Fork한다.
 2. 내 계정명으로 폴더(_ex. ~1-hee/CS_Study)를 만든다. 
 3. 계정명에 공부 파일을 생성하고 아래의 규칙에 따라 커밋({id} branch)한다.
