@@ -1,25 +1,27 @@
 
-# CS 면접 대비 스터디 
+# `CS 면접 대비 스터디 `
 
 ### 1. 스터디  개요
 -   매주 하나의 CS 주제에 대한 면접 질문과 답변을 정리해서 공유하는 스터디
-
+---
 ### 2. 참여 인원
 |조원희(1-hee)|안효관()|한재윤()|
 |---|---|---|
-|<img src="https://avatars.githubusercontent.com/u/79094527?v=4" alt="test" width="360" height="360"/> | <img src="" alt="test" width="360" height="360"/> | <img src="" alt="test" width="360" height="360"/> |
+|<img src="https://avatars.githubusercontent.com/u/79094527?v=4" alt="test" width="180" height="180"/> | <img src="" alt="test" width="180" height="180"/> | <img src="" alt="test" width="180" height="180"/> |
+---
 
 ### 3. 교재 및 강의
 -  구글(Google)
+---
 
 ### 4. 스터디 목표
 - 면접에서 나올 수 있는 다양한 질문을 기반으로 실제 면접처럼 대비 (공부 -> 면접)
 - 스터디를 통해 CS 기초 지식을 기반을 다지며 서로 동기를 부여함
 - 이번 주도 열심히 살았다! 갓생을 위한 알찬 스터디
+---
 
 ### 5. 커리큘럼
 ### `스터디 기간 : 6주`
-
 ### `학습 목차`
 1.  프로그래밍 일반    
     1.  프로그래밍 패러다임
@@ -87,29 +89,29 @@
     6.  반정규화
     7.  트랜젝션
     8.  join
-
 ---
 ### 6. 진행 방식
 ### 시간 및 장소
--   **주 1회 1시간**  (개인 학습 시간은 별도)
+-  매주 월요일 저녁 8시 ~ 9시 (주 1회 1시간, 개인 학습시간 별도)
 -   **온라인**으로 진행
-
+---
 ### 7. 학습 방식
 -   **개인 학습**
     - 매주 해당 주의 CS 면접 질문 5 ~ 10개 정리
 -   **스터디 진행**
     -   준비해온 내용 github에 업로드
     -   매주 정해진 시간에 온라인으로 모여 본인이 준비해온 내용 공유
-
+---
 ### 8. 커밋 메시지 작성 규칙
 - `브랜치 명(깃허브 닉네임) :  n주차 스터디 자료 업로드`
 - ex) `1-hee : 1주차 스터디 자료 업로드`
 
 **모든 파일은 스터디 당일 오전 9시까지 업로드**
+---
 
-
-### 7. 참고
+### 9. 참고
 - https://github.com/Bluuubery/CS_interview_study
 -   [https://dev-coco.tistory.com/category/📌ETC/Tech Interview](https://dev-coco.tistory.com/category/%F0%9F%93%8CETC/Tech%20Interview)
 -   [https://mangkyu.tistory.com/88](https://mangkyu.tistory.com/88)
 -   [https://github.com/JaeYeopHan/Interview_Question_for_Beginner](https://github.com/JaeYeopHan/Interview_Question_for_Beginner)
+---
