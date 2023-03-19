@@ -128,6 +128,13 @@
 3. 계정명에 공부 파일을 생성하고 아래의 규칙에 따라 커밋({id} branch)한다.
 4. 내 개인 저장소에서 push한 뒤에 PR을 작성한다.
 
+## 스터디 스케쥴 표
+|이름| 1주차 | 2주차 | 3주차 |  4주차 | 5주차 | 6주차 |
+|---|---|---|---|---|---|---|
+|조원희|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
+|안효관|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
+|한재윤|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
+
 ---
 ### 9. 참고
 - https://github.com/Bluuubery/CS_interview_study
