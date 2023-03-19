@@ -23,11 +23,9 @@
 
 <details>
 <summary>프로그래밍 일반</summary>
-```
-코드가
+`코드가
     여러줄이
-    안되나요?
-```
+    안되나요?`
 </details>
 
 <details>
