@@ -131,10 +131,10 @@
 ## 스터디 스케쥴 표
 |이름| 1주차 | 2주차 | 3주차 |  4주차 | 5주차 | 6주차 |
 |---|---|---|---|---|---|---|
+| 과목 | 데이터 베이스||||||
 |조원희|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 |안효관|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 |한재윤|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
-
 ---
 ### 9. 참고
 - https://github.com/Bluuubery/CS_interview_study
