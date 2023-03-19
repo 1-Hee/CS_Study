@@ -46,59 +46,73 @@
     8.  Tree
     9.  union-find 
 </details>
+<details>
+<summary자료구조</summary>
+<div markdown="1">
+<div> 1. Array, Vector, Linked list </div>
+<div> 2. Stack, Queue </div>
+<div> 3. Deque </div>
+<div> 4. Priority Queue, Heqp </div>
+<div> 5. Hash </div>
+<div> 6. Graph </div>
+<div> 7.  Tree </div>        
+<div> 8. union-find </div>
+</div>
+</details>
 
 <details>
 <summary>알고리즘</summary>
-    1.  시간복잡도
-    2.  정렬(버블/선택/퀵/병합/삽입)
-    3.  재귀
-    4.  dp
-    5.  그래프 기초(dfs bfs) + 백트래킹
-    6.  그래프 심화(벨만포드 / 다익스트라 / 플로이드와샬)
-    7.  mst
-    8.  분할정복 / 이분탐색
-    9.  그리디
+<div>1. 시간복잡도</div>
+<div>2.  정렬(버블/선택/퀵/병합/삽입)</div>
+<div>3.  재귀</div>
+<div>4.  dp</div>
+<div>5.  그래프 기초(dfs bfs) + 백트래킹</div>
+<div>6.  그래프 심화(벨만포드 / 다익스트라 / 플로이드와샬)</div>
+<div>7.  mst</div>        
+<div>8.  분할정복 / 이분탐색</div>
+<div>9.  그리디</div>
 </details>
 
 <details>
 <summary>네트워크</summary>
-    1.  HTTP HTTPS, HTTP Method
-    2.  TCP와 UDP
-    3.  TCP 3way / 4way handshake
-    4.  쿠키와 세션
-    5.  www.naver.com에  접속할 떄 생기는 일
-    6.  OSI 7계층
-    7.  DNS
-    8.  라우터 / 라우팅 알고리즘
-    9.  웹소켓
+<div>1.  HTTP HTTPS, HTTP Method</div>
+<div>2.  TCP와 UDP</div>
+<div>3.  TCP 3way / 4way handshake</div>
+<div>4.  쿠키와 세션</div>
+<div>5.  www.naver.com에  접속할 떄 생기는 일</div>
+<div>6.  OSI 7계층</div>
+<div>7.  DNS</div>        
+<div>8.  라우터 / 라우팅 알고리즘</div>
+<div>9.  웹소켓</div>
 </details>
 
 <details>
 <summary>운영체제</summary>
-    1.  프로세스와 스레드의 차이
-    2.  데드락
-    3.  세마포어 & 뮤텍스
-    4.  컨텍스트 스위칭
-    5.  선점형 스케줄링 비선점형 스케줄링
-    6.  paging system segmentation system
-    7.  paging algorithm
-    8.  caching
-    9.  가상 메모리(단편화) + page fault
-    10.  메모리 구조
-    11.  디스크 스케줄링
-    12.  raid
+<div>1.  프로세스와 스레드의 차이</div>
+<div>2.  데드락</div>
+<div>3.  세마포어 & 뮤텍스</div>
+<div>4.  컨텍스트 스위칭</div>
+<div>5.  선점형 스케줄링 비선점형 스케줄링</div>
+<div>6.  paging system segmentation system</div>
+<div>7.  paging algorithm</div>        
+<div>8.  caching</div>
+<div>9.  가상 메모리(단편화) + page fault</div>
+<div>10.  메모리 구조</div>
+<div>11.  디스크 스케줄링</div>
+<div>12.  raid</div>
+
 </details>
     
 <details>
 <summary>데이터베이스</summary>
-    1.  데이터베이스 기본 개념
-    2.  데이터베이스 언어 (sql: ddl dml dcl)
-    3.  RDBMS와 NoSql
-    4.  인덱싱
-    5.  정규화
-    6.  반정규화
-    7.  트랜젝션
-    8.  join
+<div>1.  데이터베이스 기본 개념</div>
+<div>2.  데이터베이스 언어 (sql: ddl dml dcl)</div>
+<div>3.  RDBMS와 NoSql</div>
+<div>4.  인덱싱</div>
+<div>5.  정규화</div>
+<div>6.  반정규화</div>
+<div>7.  트랜젝션</div>        
+<div>8.  join</div>
 </details>
 
 ### 6. 진행 방식
