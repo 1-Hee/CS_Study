@@ -24,9 +24,14 @@
 <details>
 <summary>프로그래밍 일반</summary>
 <div markdown="1">
-
-안녕
-
+- 프로그래밍 패러다임
+- 객체지향 프로그래밍(OOP)
+- REST API
+- GIT & GITHUB
+- 개발 방법론
+- 디자인 패턴
+- 비동기 처리
+- 프레임워크 vs 라이브러리
 </div>
 </details>
 
