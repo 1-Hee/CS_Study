@@ -20,7 +20,9 @@
 ### 5. 커리큘럼
 ### `스터디 기간 : 6주`
 ### `학습 목차`
-1.  프로그래밍 일반    
+
+<details>
+<summary>프로그래밍 일반</summary>
     1.  프로그래밍 패러다임
     2.  객체지향 프로그래밍(OOP)
     3.  REST API
@@ -28,9 +30,11 @@
     5.  개발 방법론
     6.  디자인 패턴
     7.  비동기 처리
-    8.  프레임워크 vs 라이브러리
+    8.  프레임워크 vs 라이브러리    
+</details>
 
-2.  자료구조   
+<details>
+<summary>자료구조</summary>
     1.  Array, Vector, Linked list
     2.  Stack, Queue
     3.  Deque
@@ -39,9 +43,11 @@
     6.  Graph
     7.  Tree
     8.  Tree
-    9.  union-find
+    9.  union-find 
+</details>
 
-3.  알고리즘    
+<details>
+<summary>알고리즘</summary>
     1.  시간복잡도
     2.  정렬(버블/선택/퀵/병합/삽입)
     3.  재귀
@@ -51,8 +57,10 @@
     7.  mst
     8.  분할정복 / 이분탐색
     9.  그리디
+</details>
 
-4.  네트워크    
+<details>
+<summary>네트워크</summary>
     1.  HTTP HTTPS, HTTP Method
     2.  TCP와 UDP
     3.  TCP 3way / 4way handshake
@@ -62,8 +70,10 @@
     7.  DNS
     8.  라우터 / 라우팅 알고리즘
     9.  웹소켓
-    
-5.  운영체제    
+</details>
+
+<details>
+<summary>운영체제</summary>
     1.  프로세스와 스레드의 차이
     2.  데드락
     3.  세마포어 & 뮤텍스
@@ -76,8 +86,10 @@
     10.  메모리 구조
     11.  디스크 스케줄링
     12.  raid
-
-6.  데이터베이스    
+</details>
+    
+<details>
+<summary>데이터베이스</summary>
     1.  데이터베이스 기본 개념
     2.  데이터베이스 언어 (sql: ddl dml dcl)
     3.  RDBMS와 NoSql
@@ -86,13 +98,12 @@
     6.  반정규화
     7.  트랜젝션
     8.  join
-
+</details>
 
 ### 6. 진행 방식
 ### 시간 및 장소
 -  매주 월요일 저녁 8시 ~ 9시 (주 1회 1시간, 개인 학습시간 별도)
 -   **온라인**으로 진행
-
 
 ### 7. 학습 방식
 -   **개인 학습**
@@ -100,7 +111,6 @@
 -   **스터디 진행**
     -   준비해온 내용 github에 업로드
     -   매주 정해진 시간에 온라인으로 모여 본인이 준비해온 내용 공유
-
 
 ### 8. 커밋 메시지 작성 규칙
 - `브랜치 명(깃허브 닉네임) :  n주차 스터디 자료 업로드`
