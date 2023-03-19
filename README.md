@@ -35,18 +35,6 @@
 </details>
 
 <details>
-<summary>자료구조</summary>
-    1.  Array, Vector, Linked list
-    2.  Stack, Queue
-    3.  Deque
-    4.  Priority Queue, Heqp
-    5.  Hash
-    6.  Graph
-    7.  Tree
-    8.  Tree
-    9.  union-find 
-</details>
-<details>
 <summary자료구조</summary>
 <div markdown="1">
 <div> 1. Array, Vector, Linked list </div>
