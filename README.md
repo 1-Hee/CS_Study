@@ -23,6 +23,7 @@
 
 <details>
 <summary>프로그래밍 일반</summary>
+    ```bash
     1.  프로그래밍 패러다임
     2.  객체지향 프로그래밍(OOP)
     3.  REST API
@@ -31,6 +32,7 @@
     6.  디자인 패턴
     7.  비동기 처리
     8.  프레임워크 vs 라이브러리    
+    ```
 </details>
 
 <details>
