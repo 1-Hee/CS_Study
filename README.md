@@ -24,12 +24,13 @@
 <details>
 <summary>프로그래밍 일반</summary>
 <div markdown="1">
-<div>
-객체지향 프로그래밍(OOP)
-</div>
-<div>
-GIT & GITHUB
-</div>
+<div> 1. 객체지향 프로그래밍(OOP) </div>
+<div> 2. REST API </div>
+<div> 3. GIT & GITHUB </div>
+<div> 4. 개발 방법론 </div>
+<div> 5. 디자인 패턴 </div>
+<div> 6. 비동기 처리 </div>
+<div> 7. 프레임워크 vs 라이브러리 </div>        
 </div>
 </details>
 
