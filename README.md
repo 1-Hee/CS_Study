@@ -5,7 +5,7 @@
 -   매주 하나의 CS 주제에 대한 면접 질문과 답변을 정리해서 공유하는 스터디
 
 ### 2. 참여 인원
-|조원희(1-hee)|안효관()|한재윤(White-Asher)|
+|조원희(1-hee)|안효관(Anhyogwan)|한재윤(White-Asher)|
 |---|---|---|
 |<img src="https://avatars.githubusercontent.com/u/79094527?v=4" alt="test" width="180" height="180"/> | <img src="https://avatars.githubusercontent.com/u/63335218?v=4" alt="" width="180" height="180"/> | <img src="https://avatars.githubusercontent.com/u/55140122?s=100&v=4" alt="test" width="180" height="180"/> |
 
