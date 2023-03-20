@@ -35,12 +35,12 @@
 </details>
 
 <details>
-<summary자료구조</summary>
+<summary>자료구조</summary>
 <div markdown="1">
 <div> 1. Array, Vector, Linked list </div>
 <div> 2. Stack, Queue </div>
 <div> 3. Deque </div>
-<div> 4. Priority Queue, Heqp </div>
+<div> 4. Priority Queue, Heap </div>
 <div> 5. Hash </div>
 <div> 6. Graph </div>
 <div> 7.  Tree </div>        
