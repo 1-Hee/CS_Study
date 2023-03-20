@@ -7,7 +7,7 @@
 ### 2. 참여 인원
 |조원희(1-hee)|안효관()|한재윤(White-Asher)|
 |---|---|---|
-|<img src="https://avatars.githubusercontent.com/u/79094527?v=4" alt="test" width="180" height="180"/> | <img src="" alt="" width="180" height="180"/> | <img src="https://avatars.githubusercontent.com/u/55140122?s=100&v=4" alt="test" width="180" height="180"/> |
+|<img src="https://avatars.githubusercontent.com/u/79094527?v=4" alt="test" width="180" height="180"/> | <img src="https://avatars.githubusercontent.com/u/63335218?v=4" alt="" width="180" height="180"/> | <img src="https://avatars.githubusercontent.com/u/55140122?s=100&v=4" alt="test" width="180" height="180"/> |
 
 ### 3. 교재 및 강의
 -  구글(Google)
