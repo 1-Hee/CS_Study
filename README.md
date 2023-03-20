@@ -135,7 +135,7 @@
 | 과목 | 데이터 베이스||||||
 |조원희|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 |안효관|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
-|한재윤|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
+|한재윤|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 ---
 ### 9. 참고
 - https://github.com/Bluuubery/CS_interview_study
