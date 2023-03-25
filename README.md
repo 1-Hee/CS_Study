@@ -133,7 +133,7 @@
 |이름| 1주차 | 2주차 | 3주차 |  4주차 | 5주차 | 6주차 |
 |---|---|---|---|---|---|---|
 | 과목 | 데이터 베이스| 자료구조 |||||
-|조원희|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
+|조원희|:white_check_mark:|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 |안효관|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 |한재윤|:white_check_mark:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|:black_square_button:|
 ---
