@@ -19,10 +19,45 @@
 ## Linked List (연결리스트)
 
 - 개념: 데이터와 포인터로 구성된 노드(Node)들이 연결된 자료구조
+    - 노드: 연결 자료구조에서 하나의 원소를 표현하기 위한 단위 구조, 원소 주소의 구조
+    - 데이터 필드 
+        - 원소의 값을 저장
+        - 저장할 원소의 형태에 따라 하나 이상의 필드로 구성
+    - 링크 필드
+        - 다음 노드의 주소를 저장
+        포인터 변수를 사용하여 주소값을 저장
 - 시간복잡도: 검색은 O(n), 삽입/삭제는 O(1)의 시간 복잡도를 가짐.
 - 장점: 중간 삽입/삭제가 용이하며, 크기가 동적으로 변화할 수 있기 때문에 메모리를 효율적으로 사용할 수 있음
 - 단점: 인덱스를 통한 검색이 불가능하며, 메모리에 불연속적으로 할당되기 때문에 캐시 히트율이 낮아 처리 속도가 느릴 수 있음
 - 사용되는 경우: 데이터의 크기가 동적으로 변할 수 있는 경우, 중간 삽입/삭제가 자주 일어나는 경우, 메모리 공간이 제한적인 경우
+
+## 단순 연결 리스트
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-32-31.png)
+
+- 노드가 하나의 링크 필드에 의해서 다음 노드와 연결되는 구조를 가짐
+- 연결 리스트, 선형 연결 리스트 (linear linked list)
+- 단순 연결 선형 리스트singly (linked linear list)
+
+## 이중 연결 리스트
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-33-25.png)
+
+- 양쪽 방향으로 순회할 수 있도록 노드를 연결한 리스트
+- 이중 연결 리스트의 노드 구조와 구조체 정의
+- llink(left link) 필드 : 왼쪽노드와 연결하는 포인터 (prev)
+- rlink(right link) 필드 : 오른쪽 노드와 연결하는 포인터 (next)
+
+### 이중 연결리스트
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-34-03.png)
+
+### 원형 이중 연결 리스트
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-34-16.png)
+
+## 순차 자료구조와 연결 자료구조 비교
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-35-53.png)
 
 ### 캐시 히트율?
 캐시 히트율(Cache hit rate)은 캐시(Cache)라는 고속 메모리에 데이터를 저장하는 경우, 해당 데이터를 찾는데 성공하는 확률을 의미한다. 예를 들어, 배열(Array)은 메모리에 연속적으로 할당되기 때문에 캐시 히트율이 높아 처리 속도가 빠르다. 반면에 연결 리스트(Linked List)는 메모리에 불연속적으로 할당되기 때문에 캐시 히트율이 낮아 처리 속도가 느릴 수 있다. 따라서 자료구조를 선택할 때 캐시 히트율을 고려하는 것이 중요하다.
@@ -64,13 +99,50 @@ Vector와 ArrayList는 모두 크기가 동적으로 변화할 수 있는 자료
 
 ## Stack
 
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-36-52.png)
+
 - 개념 : 후입선출(LIFO, Last In First Out) 구조를 가지는 자료구조이다. 새로운 요소는 항상 가장 상위(top)에 추가되고, 요소의 삭제도 가장 상위에서 일어난다
 - 시간복잡도 : 스택에서 삽입, 삭제, 검색 모두 O(1)이다.
 - 장점 : 구현이 쉽고, 적은 메모리 용량으로 구현이 가능하다.
 - 단점 : 중간 요소의 삭제가 어렵다.
 - 사용되는 경우 : 함수 호출, 괄호 검사, 수식 계산 등에서 사용된다.
 
+## Stack 응용 - 괄호검사
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-03-46.png) <br>
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-04-10.png) <br>
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-04-29.png)
+
+## Stack을 이용한 수식의 후위 표기법 변환
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-07-11.png) <br>
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-07-15.png) <br>
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-07-18.png) <br>
+
+### 수식의 표기법
+- 전위표기법(prefix notation) 
+    - 연산자를 피연산자를 앞에 표기하는 방법 
+    - 예) +AB 
+
+- 중위표기법(infix notation) 
+    - 연산자를 피연산자의 가운데 표기하는 방법 
+    - 예) A+B 
+
+- 후위표기법(postfix notation) 
+    - 연산자를 피연산자 뒤에 표기하는 방법 
+    - 예) AB+ 
+
+### 중위 표기식의 전위 표기식 변환 방법
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-05-52.png)
+
+### 중위 표기식의 후위 표기식 변환 방법
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-06-29.png)
+
 ## Queue
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-37-53.png)
 
 - 개념 : 선입선출(FIFO, First In First Out) 구조를 가지는 자료구조이다. 새로운 요소는 항상 가장 뒤(rear)에 추가되고, 삭제는 항상 가장 앞(front)에서 이루어진다.
 - 시간복잡도 : 큐에서 삽입, 삭제, 검색 모두 O(1)이다.
@@ -192,6 +264,8 @@ public class Main {
 PriorityQueue 클래스는 자체적으로 원소를 우선순위에 따라 정렬하기 때문에, poll() 메소드를 호출하면 우선순위가 가장 높은 원소가 반환됨.
 
 ## Heap
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-12-15.png)
 
 - Heap은 Priority Queue를 구현하는 방법 중 하나로, 이진 트리(binary tree)를 기반으로 우선순위를 유지하는 자료구조.
 - 장점 : Priority Queue와 마찬가지로 우선순위가 중요한 알고리즘에서 빠른 시간 안에 최소값 또는 최대값을 찾을 수 있음. Heap은 자동으로 정렬되므로 정렬된 데이터를 저장하고 검색하는데 유용함.
@@ -406,6 +480,8 @@ PriorityQueue는 Java에서 이미 구현된 우선순위 큐이며, Heap은 배
 
 ## Hash
 
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-13-46.png)
+
 - 개념 : 키(key)와 값(value)을 저장하는 자료구조. 이는 해시 함수(hash function)을 사용하여 키를 값으로 매핑하여 값을 저장하고 검색한다. 즉, Hash 자료구조는 키를 해시 함수에 적용하여 값에 대한 고유한 인덱스를 생성한다.
 - 장점
     - 빠른 검색 속도
@@ -534,6 +610,8 @@ HashTable과 HashMap 모두 해시맵 구조를 사용하지만, 동기화 여�
 
 ## Map 구현방법
 
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-15-05.png)
+
 대표적인 구현방법으로는 HashMap, TreeMap 등이 있다.
 
 ### Map 구현방법 : HashMap
@@ -581,11 +659,41 @@ Map을 사용할 때는 Key 값의 중복을 허용하지 않는다는 점을 �
 - 사용되는 경우
     - 네트워크, 경로 찾기, 최단 경로 찾기 등과 같은 다양한 문제를 해결할 때 사용됩니다.
 
+## Graph 종류
+
+- 무방향 그래프(undirected graph)
+    - 두 정점을 연결하는 간선에 방향이 없는 그래프
+    - 정점 Vi와 정점 Vj을 연결하는 간선을 (Vi, Vj)로 표현
+    - (Vi, Vj)와 (Vj, Vi)는 같은 간선을 의미
+
+    ![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-16-26.png)
+
+- 방향 그래프(directed graph)
+    - 간선에 방향이 있는 그래프
+    - 정점 Vi에서 정점 Vj를 연결하는 간선 즉, Vi→Vj를 <Vi, Vj>로 표현
+    - Vi를 꼬리(tail), Vj를 머리(head)라고 한다.
+    - <Vi, Vj>와 <Vj, Vi>는 서로 다른 간선을 의미
+
+    ![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-16-36.png)
+
+- 완전 그래프(complete graph)
+    - 각 정점에서 다른 모든 정점을 연결하여 최대로 많은 간선 수를 가진 그래프
+    - 정점이 n개인 무방향 그래프에서 최대의 간선 수 :  n(n-1)/2개
+    - 정점이 n개인 방향 그래프의 최대 간선 수 : n(n-1)개
+    - 완전 그래프의 예 
+        - G5는 정점의 개수가 4개인 무방향 그래프이므로 완전 그래프가 되려면 4(4-1)/2=6개의 간선 연결
+        - G6은 정점의 개수가 4개인 방향 그래프이므로 완전 그래프가 되려면 4(4-1)=12개의 간선 연결
+
+    ![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-16-57.png)
+
+
 ## Graph 구현
 
 그래프 자료구조는 인접 리스트(Adjacency List)와 인접 행렬(Adjacency Matrix)로 구현할 수 있다.
 
 ### Graph 구현 : 인접행렬
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-17-43.png)
 
 - 인접 행렬은 2차원 배열을 사용하여 구현되며, 각 노드간의 연결 관계를 0과 1로 나타낸다. 
 - (정점 i와 정점 j가 연결되어 있으면 matrix[i][j]의 값이 1이고, 연결되어 있지 않으면 0) 
@@ -615,6 +723,8 @@ public class Graph {
 ```
 
 ### Graph 구현 : 인접리스트
+
+![](./%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0_2%EC%A3%BC%EC%B0%A8_White-Asher_Asset/2023-04-17-19-20-28.png)
 
 - 인접 리스트는 연결된 노드들을 각각 연결리스트 형태로 구현한다. 
 - 따라서 각 노드마다 필요한 만큼의 메모리만 차지하므로, 인접 행렬보다 메모리 절약 효과가 있다.
@@ -858,3 +968,40 @@ Tree 자료구조에서 노드를 삭제하는 방법은 크게 3가지가 있�
     - 이 때, 대체할 노드가 자식 노드를 가지고 있다면, 이 자식 노드를 대체할 노드의 부모 노드와 연결해주어야 합니다.
     - 만약 대체할 노드가 오른쪽 하위 트리에서 가장 작은 값을 가지는 노드라면, 해당 노드와 오른쪽 하위 트리에서 가장 작은 값을 가지는 노드 사이의 모든 노드는 삭제할 노드의 왼쪽 하위 트리의 어떤 노드보다도 크고, 오른쪽 하위 트리의 어떤 노드보다도 작은 값을 가지므로, 삭제할 노드의 왼쪽 하위 트리와 오른쪽 하위 트리를 병합해야 한다.
     - 이러한 삭제 연산은 삭제할 노드가 루트 노드일 경우 특별한 처리가 필요하다.
+
+
+# 9. union-find
+
+- 개념
+    - 집합을 관리하기 위한 자료구조
+    - Disjoint Set 자료구조라고 함.
+    - 집합은 중복된 원소가 없는 데이터 그룹이며, Union-Find 자료구조는 이러한 집합들을 관리한다.
+- 특징
+    - Union-find 자료구조는 두가지 연산을 지원한다.
+        - 합집합(Union) 연산: 두 개의 집합을 하나로 합친다.
+        - 찾기(Find) 연산: 특정 원소가 속한 집합을 찾는다.
+- 사용되는 곳
+    - 그래프 이론 알고리즘에서 사용. 서로 다른 두 개의 노드가 같은 집합에 속해 있는지 여부를 확인하거나, 두 개의 집합을 하나로 합치는데 사용됨.
+    - 픽셀 이어 붙이기, 모서리 감지 등의 이미지 처리 알고리즘에서 사용된다.. 연결 요소를 찾거나 두 개의 연결 요소를 하나로 합치는 데 사용된다.
+- 시간 복잡도
+    - 초기화: O(n)
+    - 합집합(Union) 연산: O(log n)
+    - 찾기(Find) 연산: O(log n)
+- 장점 
+    - 집합을 효율적으로 관리할 수 있다.
+    - 서로 다른 두 개의 집합을 하나로 합칠 때, 두 집합의 크기가 작은 쪽을 큰 쪽에 붙이면서 트리의 불균형을 막아준다.
+- 단점
+    - Disjoint Set Tree를 사용하기 때문에, 트리의 높이가 최악의 경우 O(n)이 될 수 있다. 이러한 경우를 막기 위해 Union-by-Rank, Path Compression 등의 최적화 기법이 사용된다.
+
+## 출처
+
+본 문서에서 사용된 이미지 출처는 아래 교재에서 참조하였으며 <br>[한빛출판네트워크 저작물에 대한 온라인 매체 이용 규정](https://www.hanbit.co.kr/support/notice_view.html?hnb_idx=307)을 준수하였습니다. <br>
+
+한빛출판네트워크
+- [IT CookBook, C로 배우는 쉬운 자료구조(개정3판) - 한빛아카데미 저.이지영](https://www.hanbit.co.kr/store/books/look.php?p_code=B7355732474) <br>
+
+Geek for Geek
+- [Hashing Data Structure](https://www.geeksforgeeks.org/hashing-data-structure/)
+- [Heap Data Structure](https://www.geeksforgeeks.org/heap-data-structure/)
+- [Queue Data Structure](https://www.geeksforgeeks.org/queue-data-structure/)
+- [Types of Linked List](https://www.geeksforgeeks.org/types-of-linked-list/)
